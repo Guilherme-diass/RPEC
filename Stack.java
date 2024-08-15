@@ -1,10 +1,8 @@
-import java.util.Stack;
-
-public class Main{
+public class Stack {
 
     public static void main(String[] args){
 
-        Stack<String> carros = new Stack<>();
+        java.util.Stack<String> carros = new java.util.Stack<>();
 
         carros.push("Q3");
         carros.push("Golf");
